@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="text-xl font-bold">
-          <a href="/">My Dashboard</a>
+          <a>My Dashboard</a>
         </div>
 
         {/* Hamburger Icon (Mobile) */}
@@ -43,7 +43,7 @@ const Navbar = () => {
         >
           <ul className="flex flex-col sm:flex-row sm:space-x-6 mt-4 sm:mt-0">
             <li>
-              <a href="/" className="hover:text-gray-400">
+              <a className="hover:text-gray-400">
                 Home
               </a>
             </li>

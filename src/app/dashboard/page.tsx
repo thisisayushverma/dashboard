@@ -1,16 +1,21 @@
-import Navbar from "./navbar";
-import NavbarItem from "./navbarItem";
-import People from "./People.svg"
-import SideNavbar from "./sidenavbar";
+// import Navbar from "./navbar";
+// import NavbarItem from "./navbarItem";
+// import People from "./People.svg"
+// import SideNavbar from "./sidenavbar";
+// import UserLeaderboard from './userLeaderboard';
+// import GroupLeaderboard from './groupLeaderboard';
+import StatCard from './statCard';
+
 
 const Dashboard = () => {
     return (
-      <div>
+      <div className="bg-white">
         {/* <NavbarItem  icon={People} name="Home"  href="/"/> */}
         {/* <Navbar/> */}
-        <SideNavbar/>
-        <h1>Welcome to the Dashboard</h1>
-        <p>This is the /dashboard route.</p>
+        {/* <SideNavbar/> */}
+        {/* <UserLeaderboard/> */}
+        {/* <GroupLeaderboard/> */}
+        <StatCard/>
       </div>
     );
   };

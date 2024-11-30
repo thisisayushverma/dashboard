@@ -1,5 +1,4 @@
 import React from 'react';
-import trending from "./trending.svg"
 
 const SideNavbar: React.FC = () => {
   return (
