@@ -15,7 +15,9 @@ const StatCards = () => {
     },
     {
       label: "Av. Session Length",
-      value: metrics.average_session_length_seconds,
+      value: `${Math.floor(metrics.average_session_length_seconds / 60)}min ${
+        metrics.average_session_length_seconds % 60
+      }sec`,
     },
     {
       label: "Starting Knowledge",
